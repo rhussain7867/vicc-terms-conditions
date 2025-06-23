@@ -2,69 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Procurement Terms and Conditions</title>
+   
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-            background: #f8f9fa;
-            color: #222;
-        }
-        .container {
-            max-width: 700px;
-            background: #fff;
-            padding: 30px 40px;
-            margin: 0 auto;
-            box-shadow: 0 2px 12px rgba(0,0,0,0.07);
-            border-radius: 8px;
-        }
-        h1 {
-            text-align: center;
-            color: #215187;
-        }
-        .terms-box {
-            border: 1px solid #d1d5da;
-            background: #f4f8fc;
-            padding: 20px;
-            margin: 20px 0;
-            height: 250px;
-            overflow-y: auto;
-            border-radius: 5px;
-        }
-        .accept-section {
-            display: flex;
-            align-items: center;
-            margin-top: 20px;
-            justify-content: space-between;
-        }
-        button {
-            padding: 10px 30px;
-            background: #2a7ae2;
-            color: #fff;
-            border: none;
-            border-radius: 3px;
-            font-size: 1em;
-            cursor: pointer;
-            transition: background 0.2s;
-        }
-        button:disabled {
-            background: #b2c5e3;
-            cursor: not-allowed;
-        }
-        label {
-            font-size: 1em;
-            margin-left: 10px;
-            cursor: pointer;
-        }
-        .accepted-message {
-            color: #0a8635;
-            font-weight: bold;
-            text-align: center;
-            margin-top: 20px;
-            font-size: 1.15em;
-        }
-    </style>
+   
 </head>
 <body>
     <div class="container">

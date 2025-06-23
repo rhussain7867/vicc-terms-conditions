@@ -7,7 +7,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Procurement Terms and Conditions</h1>
+        <h1> VICC Procurement Terms and Conditions</h1>
         <div class="terms-box" id="termsBox">
             <h3>1. Acceptance of Terms</h3>
             <p>

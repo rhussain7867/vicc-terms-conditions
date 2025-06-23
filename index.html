@@ -128,29 +128,6 @@
     <p>Anything not covered above and instrumental to the execution of this agreement / order shall be considered to be an integral part of this agreement at the discretion of the company to decide and implement.</p>
 
 
-    <div class="action">
-      <input type="checkbox" id="agree">
-      <label for="agree">I agree to the procurement terms and conditions</label><br><br>
-      <button id="accept" disabled>Accept</button>
-      <p id="response" class="hidden">✅ Response saved. Thank you!</p>
-    </div>
-
-    <script>
-      const checkbox = document.getElementById('agree');
-      const button = document.getElementById('accept');
-      const response = document.getElementById('response');
-
-      checkbox.addEventListener('change', () => {
-        button.disabled = !checkbox.checked;
-      });
-
-      button.addEventListener('click', () => {
-        localStorage.setItem('termsAccepted', 'true');
-        response.classList.remove('hidden');
-        button.disabled = true;
-        checkbox.disabled = true;
-      });
-    </script>
 </body>
 
 </html>

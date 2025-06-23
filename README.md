@@ -111,21 +111,6 @@
             Thank you! You have accepted the Procurement Terms and Conditions.
         </div>
     </div>
-    <script>
-        const checkbox = document.getElementById('acceptCheckbox');
-        const button = document.getElementById('acceptBtn');
-        const form = document.getElementById('acceptForm');
-        const message = document.getElementById('acceptedMessage');
-
-        checkbox.addEventListener('change', () => {
-            button.disabled = !checkbox.checked;
-        });
-
-        form.addEventListener('submit', function(event) {
-            event.preventDefault();
-            form.style.display = 'none';
-            message.style.display = 'block';
-        });
-    </script>
+    
 </body>
 </html>
